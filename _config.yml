@@ -1,0 +1,10 @@
+title: Jonathan Buchholz
+email: jonathan.buchholz@gmail.com
+baseurl: "" # the subpath of the site, e.g. /blog
+url: "http://jonathanbuchholz.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: [ruby, Gemfile, Gemfile.lock, vendor]
+include:
+  - _staging
